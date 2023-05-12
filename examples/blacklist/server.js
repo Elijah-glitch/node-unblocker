@@ -10,7 +10,7 @@ const app = express();
 const unblocker = Unblocker({
   requestMiddleware: [
     blacklist({
-      blockedDomains: ["example.com", "example2.com", "example3.com"],
+      blockedDomains: ["securly.com", "example2.com", "example3.com"],
       message: "The requested url is not permitted.",
     }),
   ],
